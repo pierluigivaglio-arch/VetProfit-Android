@@ -1,0 +1,13 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'it.vetprofit.app'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'it.vetprofit.app'
+        minSdk 24
+        targetSdk 35
+        versionCode 96
+        versionName '0.6.96'
+    }
+}
